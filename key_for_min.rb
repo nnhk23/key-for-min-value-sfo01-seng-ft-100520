@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   smallest = 1000000
-  min_value_item = ""
   name_hash.each do |name, price|
     if price < smallest
       smallest = price
