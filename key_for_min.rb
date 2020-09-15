@@ -7,10 +7,9 @@ def key_for_min_value(name_hash)
   name_hash.each do |name, price|
     if price < smallest
       smallest = price
-      min_value_item = name
+      puts min_value_item = name
       elsif name_hash.length === 0 
-      return NIL
+      puts NIL
     end
   end
-  min_value_item
 end
