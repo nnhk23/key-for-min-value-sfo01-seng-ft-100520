@@ -8,7 +8,6 @@ def key_for_min_value(name_hash)
     if price < smallest
       smallest = price
       min_value_item = name
-      puts min_value_item
     end
   end
 end
