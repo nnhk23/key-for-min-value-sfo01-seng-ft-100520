@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       smallest = price
       min_value_item = name
       elsif name_hash.length === 0 
-       FALSE
+       min_value_item = 10 
     end
   end
   min_value_item
